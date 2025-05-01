@@ -32,10 +32,7 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
-}
+
 
 button {
   border-radius: 8px;
@@ -68,4 +65,150 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+
+
+/* ProductCard.css */
+h1 {
+  font-size: 3.2em;
+  text-align: center;
+  /* line-height: 1.1; */
+}
+.search-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+#search-product{
+  width: 250px;
+  height: 30px;
+  
+}
+
+.product-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+
+.product-card {
+  width: 300px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+  background-color: #fff;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-details {
+  padding: 16px;
+}
+
+.product-title {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+.product-brand{
+  /* font-size: 18px; */
+  font-weight: bold;
+
+}
+.product-category{
+  font-weight: bolder;
+  color: #76b6fc;
+  text-align: left;
+}
+
+.product-description {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 16px;
+  height: 20px;
+  height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.product-footer {
+  display: flex;
+  gap: 10px;
+  /* justify-content: ; */
+  align-items: center;
+}
+
+.product-price {
+  font-weight: 400;
+  font-size: 16px;
+  color: #5f5b5b;
+}
+.product-discountprice{
+  font-weight: bold;
+  font-size: 16px;
+  color: #1b1a1a;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+
+}
+.add-to-cart-btn {
+  padding: 8px 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+  background-color: #0056b3;
+}
+
+
+.product-detail{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  /* border: 1px solid; */
+  /* width: 800px; */
+  box-shadow: 5px 5px 15px rgb(202, 202, 202);
+  margin: 50px 200px;
+  padding: 20px;
+}
+.product-img{
+  width: 500px;
+  height: 450px;
+}
+.title{
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 50px;
+
+}
+.category{
+  font-size: 20px;
+  font-weight: bold;
+}
+.brand span{
+  font-weight: bold;
+
 }

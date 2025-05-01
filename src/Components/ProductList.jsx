@@ -1,0 +1,87 @@
+
+import { useState } from 'react'
+import ProductData from '../utility/ProductData'
+import ProductCard from './ProductCard'
+import FilterProduct from './Filterproduct'
+import Productdata from '../utility/Data'
+
+
+// function ProductList() {
+//   const [Data, setData] = useState(ProductData)
+//   const [categoryFilter, setcategoryFilter] = useState('')
+//   const filterProduct = Data.filter((product) => {
+//   //  return product.category.toLowerCase().includes(categoryFilter)
+//    return (product.category.toLowerCase().includes(categoryFilter) ||
+//    product.title.toLowerCase().includes(categoryFilter)
+//   )
+//   })
+
+//   return (
+//     <>
+//       <h1>Product List</h1>
+//       <div className='search-box'>
+//         <input type="text" name="search-product" id="search-product"
+//           placeholder='search product....'
+//           onChange={(e) => setcategoryFilter(e.target.value)}
+//         />
+//       </div>
+//       <div className="product-list">
+//         {
+//           filterProduct.length > 0 ? (
+//           filterProduct.map((Value , index) => {
+//             return (
+//               <ProductCard Products={Value} key={index}/>
+//             )
+//           })
+//         ):(
+//           <p>Product is not found</p>
+//         )
+//         }
+//       </div>
+//     </>
+//   )
+
+// }
+
+function ProductList() {
+  const [data , setdata] = useState(Productdata)
+  console.log(data);
+  
+  const [saearchData , setsearchData] = useState('')
+  
+  const filterData = data.filter((product) => {
+    return (product.category.toLowerCase().includes(saearchData) ||
+      product.title.toLowerCase().includes(saearchData)
+  )
+  })
+ console.log(filterData);
+ 
+return(
+  <>
+     <h1>Product List</h1>
+     <div className='search-box'>
+         <input type="text" name="search-product" id="search-product"
+           placeholder='search product....'
+           onChange={(e) => setsearchData(e.target.value)}
+         />
+       </div>
+       <div className="product-list">
+         {
+          filterData.length >0 ? (
+            filterData.map((Value , index) => {
+             return (
+               <ProductCard Products={Value} key={index}/>
+             )
+           })
+          ):(
+            <p>Product is not found</p>
+          )
+         }
+       </div>
+     </>
+)
+
+}
+
+
+export default ProductList

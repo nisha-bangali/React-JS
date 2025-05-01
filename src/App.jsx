@@ -4,6 +4,9 @@
 import './App.css'
 import AboutPage from './Components/About'
 import HomePage from './Components/Home'
+import Productdetail from './Components/Productdetail'
+import ProductList from './Components/ProductList'
+
 // import PracticeTask from './Components/practice'
 
 function App() {
@@ -11,7 +14,9 @@ function App() {
 
   return (
     <>
-      <HomePage />
+      {/* <HomePage /> */}
+     <ProductList />
+     {/* <Productdetail/> */}
     </>
   )
 
