@@ -973,7 +973,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/apple/thumbnail.webp"
       },
       {
-        "id": 18,
+        "id": 17,
         "title": "Cat Food",
         "description": "Nutritious cat food formulated to meet the dietary needs of your feline friend.",
         "category": "groceries",
@@ -1032,7 +1032,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cat-food/thumbnail.webp"
       },
       {
-        "id": 20,
+        "id": 18,
         "title": "Cooking Oil",
         "description": "Versatile cooking oil suitable for frying, sautéing, and various culinary applications.",
         "category": "groceries",
@@ -1090,7 +1090,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cooking-oil/thumbnail.webp"
       },
       {
-        "id": 21,
+        "id": 19,
         "title": "Cucumber",
         "description": "Crisp and hydrating cucumbers, ideal for salads, snacks, or as a refreshing side.",
         "category": "groceries",
@@ -1148,7 +1148,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/cucumber/thumbnail.webp"
       },
       {
-        "id": 22,
+        "id": 20,
         "title": "Dog Food",
         "description": "Specially formulated dog food designed to provide essential nutrients for your canine companion.",
         "category": "groceries",
@@ -1207,7 +1207,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/dog-food/thumbnail.webp"
       },
       {
-        "id": 23,
+        "id": 21,
         "title": "Eggs",
         "description": "Fresh eggs, a versatile ingredient for baking, cooking, or breakfast.",
         "category": "groceries",
@@ -1265,7 +1265,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/eggs/thumbnail.webp"
       },
       {
-        "id": 24,
+        "id": 22,
         "title": "Fish Steak",
         "description": "Quality fish steak, suitable for grilling, baking, or pan-searing.",
         "category": "groceries",
@@ -1323,7 +1323,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/fish-steak/thumbnail.webp"
       },
       {
-        "id": 25,
+        "id": 23,
         "title": "Green Bell Pepper",
         "description": "Fresh and vibrant green bell pepper, perfect for adding color and flavor to your dishes.",
         "category": "groceries",
@@ -1381,7 +1381,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-bell-pepper/thumbnail.webp"
       },
       {
-        "id": 26,
+        "id": 24,
         "title": "Green Chili Pepper",
         "description": "Spicy green chili pepper, ideal for adding heat to your favorite recipes.",
         "category": "groceries",
@@ -1439,7 +1439,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/green-chili-pepper/thumbnail.webp"
       },
       {
-        "id": 27,
+        "id": 25,
         "title": "Honey Jar",
         "description": "Pure and natural honey in a convenient jar, perfect for sweetening beverages or drizzling over food.",
         "category": "groceries",
@@ -1497,7 +1497,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/honey-jar/thumbnail.webp"
       },
       {
-        "id": 28,
+        "id": 26,
         "title": "Ice Cream",
         "description": "Creamy and delicious ice cream, available in various flavors for a delightful treat.",
         "category": "groceries",
@@ -1558,7 +1558,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/ice-cream/thumbnail.webp"
       },
       {
-        "id": 29,
+        "id": 27,
         "title": "Juice",
         "description": "Refreshing fruit juice, packed with vitamins and great for staying hydrated.",
         "category": "groceries",
@@ -1616,7 +1616,7 @@
         "thumbnail": "https://cdn.dummyjson.com/product-images/groceries/juice/thumbnail.webp"
       },
       {
-        "id": 30,
+        "id": 28,
         "title": "Kiwi",
         "description": "Nutrient-rich kiwi, perfect for snacking or adding a tropical twist to your dishes.",
         "category": "groceries",

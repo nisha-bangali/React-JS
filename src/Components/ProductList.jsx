@@ -1,5 +1,5 @@
 
-import { useState } from 'react'
+import { useId, useState } from 'react'
 import ProductData from '../utility/ProductData'
 import ProductCard from './ProductCard'
 import FilterProduct from './Filterproduct'
@@ -45,16 +45,17 @@ import Productdata from '../utility/Data'
 
 function ProductList() {
   const [data , setdata] = useState(Productdata)
-  console.log(data);
+  // console.log(data);
   
-  const [saearchData , setsearchData] = useState('')
-  
+  const [saearchData , setsearchData] = useState('')  
   const filterData = data.filter((product) => {
     return (product.category.toLowerCase().includes(saearchData) ||
       product.title.toLowerCase().includes(saearchData)
   )
   })
- console.log(filterData);
+  const uniqueId = useId()
+  console.log(uniqueId);
+  
  
 return(
   <>
@@ -70,7 +71,8 @@ return(
           filterData.length >0 ? (
             filterData.map((Value , index) => {
              return (
-               <ProductCard Products={Value} key={index}/>
+               <ProductCard Products={Value} key={uniqueId + index}/>
+              
              )
            })
           ):(
