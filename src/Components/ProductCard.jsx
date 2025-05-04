@@ -20,7 +20,7 @@ function ProductCard({ Products }) {
       selectProduct && (
         <div className="product-detail">
         <div className="image">
-            <img src={selectProduct.images} alt="Beauty Product" className="product-img" />
+            <img src={selectProduct.images[0]} alt="Beauty Product" className="product-img" />
         </div>
         <div className="detail">
           <h3 className="title">{selectProduct.title}</h3>
@@ -42,7 +42,7 @@ function ProductCard({ Products }) {
     } 
 
     <div className="product-card" key={Products.id} onClick={() => setselectProduct(Products) }>
-      <img className="product-image" src={Products.images} />
+      <img className="product-image" src={Products.images[0]} />
       <div className="product-details">
         <h3 className="product-title">{Products.title}</h3>
         <p className='product-brand'>{Products.brand}</p>
