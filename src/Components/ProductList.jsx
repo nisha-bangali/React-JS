@@ -2,7 +2,7 @@
 import { useEffect, useId, useState } from 'react'
 import ProductData from '../utility/ProductData'
 import ProductCard from './ProductCard'
-import FilterProduct from './Filterproduct'
+
 
 
 // function ProductList() {
@@ -80,7 +80,7 @@ function ProductList() {
             filterData.map((Value, index) => {
               return (
                 <ProductCard Products={Value} key={index} />
-
+              
               )
             })
           ) : (

@@ -36,11 +36,10 @@ function ProductCard({ Products }) {
           <p><b>Note: </b>{selectProduct.returnPolicy}</p>
           <button className='close-detail' onClick={()=> setselectProduct(null)}>Close</button>
         </div>
-
     </div>
       )
     } 
-
+    
     <div className="product-card" key={Products.id} onClick={() => setselectProduct(Products) }>
       <img className="product-image" src={Products.images[0]} />
       <div className="product-details">
@@ -60,7 +59,7 @@ function ProductCard({ Products }) {
         </div>
       </div>
     </div>
-   
+      
     </>
   )
 }
