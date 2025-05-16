@@ -1,0 +1,35 @@
+.signup-container {
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px 40px;
+    /* border: 1px solid #ccc; */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+  }
+  .signup-container h2 {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        padding-bottom: 20px;
+        transition: all 0.3s;
+  }
+  .signup-container h2:hover{
+    color: blue;
+  }
+  
+  .signup-form div {
+    margin-bottom: 15px;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  

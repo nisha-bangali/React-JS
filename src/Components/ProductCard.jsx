@@ -3,20 +3,21 @@ import { useState } from 'react'
 import Productdata from '../utility/ProductData'
 import Productdetail from './Productdetail'
 import StarRating from './Rating'
+import { Link } from 'react-router'
 // import ProductList from './ProductList';
 
 function ProductCard({ Products }) {
   const discountprice = (Products.price * (Products.discountPercentage) / 100)
   const finalPrice = (Products.price - discountprice).toFixed(2)
   
-  const [selectProduct , setselectProduct] = useState(null)
+  // const [selectProduct , setselectProduct] = useState(null)
     
  
   
 
   return (
     <>
-     {
+     {/* {
       selectProduct && (
         <div className="product-detail">
         <div className="image">
@@ -38,12 +39,12 @@ function ProductCard({ Products }) {
         </div>
     </div>
       )
-    } 
+    }  */}
     
-    <div className="product-card" key={Products.id} onClick={() => setselectProduct(Products) }>
+    <div className="product-card" key={Products.id}>
       <img className="product-image" src={Products.images[0]} />
       <div className="product-details">
-        <h3 className="product-title">{Products.title}</h3>
+        <Link to={`/products/${Products.id}`} className="product-title">{Products.title}</Link>
         <p className='product-brand'>{Products.brand}</p>
         <p className="product-category">{Products.category}</p>
         <p className="product-description">{Products.description}</p>

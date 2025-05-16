@@ -90,3 +90,17 @@ form button {
 form button:hover {
     background: #4954d0;
 }
+
+
+
+.userDetail{
+    text-align: center;
+    margin: 50px;
+}
+.userDetail button{
+    padding: 8px 16px;
+    background-color: #626CD6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}

@@ -2,6 +2,7 @@
 import { useEffect, useId, useState } from 'react'
 import ProductData from '../utility/ProductData'
 import ProductCard from './ProductCard'
+import { Link } from 'react-router'
 
 
 
@@ -67,7 +68,7 @@ function ProductList() {
 
   return (
     <>
-      <h1>Product List</h1>
+      {/* <h1>Product List</h1> */}
       <div className='search-box'>
         <input type="text" name="search-product" id="search-product"
           placeholder='search product....'
@@ -85,6 +86,7 @@ function ProductList() {
             })
           ) : (
             <p>Product is not found</p>
+           
           )
         }
       </div>
